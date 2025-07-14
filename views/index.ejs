@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-body">
+        <p class="nav-title">Create Your User Account</p>
+        <form class="user-details" action="/create" method="post">
+          <div class="user-details-com">
+            <input type="text" placeholder="Name" name="name" required />
+            <input type="text" placeholder="Last Name" name="lastname" />
+          </div>
+          <div class="user-details-com input-adj">
+            <input type="number" placeholder="Age" name="age" required />
+            <input
+              type="date"
+              placeholder="Date of Birth"
+              name="date"
+              required
+            />
+          </div>
+          <input
+            type="email"
+            placeholder="Enter Your Email"
+            name="email"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            required
+          />
+
+          <button class="submit-btn" type="submit">Create Account</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

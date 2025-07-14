@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-body">
+        <p class="nav-title">Login To Your Account</p>
+        <form class="user-details" action="/login" method="post">
+          <input
+            type="email"
+            placeholder="Enter Your Email"
+            name="email"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            required
+          />
+
+          <button class="submit-btn" type="submit">Login</button>
+        </form>
+        <div class="signup-link">
+          <span>Create new account</span>
+          <a href="/">SignUp</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
